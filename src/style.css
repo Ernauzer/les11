@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(25, 27, 24, 0.2);
+    position: relative;
+    box-shadow: 0px 0px 4px 0px rgba(1, 140, 255, 0.5);
+}
+.button {
+    min-width: 22px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 15px;
+}
+.button_plus {
+    left: 27px;
+    background-color: rgb(0, 211, 0);
+}
+.button_cons {
+    right: 27px;
+    background-color: rgb(241, 21, 21);
+}
+.text {
+    line-height: 100px;
+}
+.box_color {
+    background-color: rgba(212, 79, 31, 0.931);
+}
